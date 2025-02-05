@@ -1,0 +1,200 @@
+/* Stalinist One; Prosto One */
+@import url('https://fonts.googleapis.com/css2?family=Prosto+One&family=Stalinist+One&display=swap');
+
+body {
+    margin: 0;
+    background-color: #c1c1c1;
+}
+
+/* Header Styles */
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.header {
+    width: 1200px;
+    height: 35px;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+    padding: 10px 20px;
+    color: white;
+}
+
+.logo {
+    font-size: 20px;
+    font-family: "Stalinist One", serif;
+}
+
+.header-nav {
+    display: flex;
+    gap: 30px;
+    font-family: "Prosto One", serif;
+}
+
+.header-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+.header-button {
+    font-family: "Prosto One", serif;
+}
+
+.header-nav a:hover {
+    color: #f0a68b;
+}
+
+.header .header-button {
+    background-color: #f68b6f;
+    color: #fff;
+    padding: 8px 15px;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.header-button:hover {
+    background-color: #e67a60;
+}
+
+/* Main Styles */
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/* Main Styles: Section Carousel */
+
+.carousel {
+    position: relative;
+    width: 1400px;
+    height: 400px;
+    margin-top: 25px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    justify-content: center;
+}
+.carousel-container {
+    display: flex;
+    width: 200%;
+    transition: transform 0.5s ease-in-out;
+}
+.carousel-item {
+    position: relative;
+    width: 100%;
+    flex: 0 0 100%;
+    text-align: center;
+}
+.carousel img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Main Styles: Section Donate */
+  
+  .donate-card {
+    margin-top: 25px;
+    width: 1400px;
+    border: #8a8a8a 1px solid;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .donate-choose {
+    margin: 10px 10px;
+    width: 600px;
+    border: #8a8a8a 1px solid;
+    border-radius: 10px;
+  }
+  
+  .donate-choose-serv {
+    margin: 10px 10px;
+    width: 580px;
+    border: #8a8a8a 1px solid;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .donate-serv {
+    margin: 10px 10px;
+    border: #8a8a8a 1px solid;
+    border-radius: 10px;
+    padding: 5px;
+    width: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s, opacity 0.3s;
+    font-family: "Stalinist One", serif;
+    cursor: pointer;
+    flex: 1;
+  }
+  
+  #serv-one {
+    background-color: rgb(255, 166, 0);
+    color: black;
+  }
+  
+  #serv-two {
+    background-color: rgb(0, 255, 0);
+    color: black;
+  }
+  
+  #serv-three {
+    background-color: rgb(255, 0, 255);
+    color: black;
+  }
+  
+  #serv-four {
+    background-color: rgb(255, 255, 0);
+    color: black;
+  }
+  
+  /* Активная кнопка */
+  .active {
+    opacity: 1;
+  }
+  
+  /* Неактивные кнопки */
+  .inactive {
+    opacity: 0.5;
+  }
+  
+  .donate-choose-don {
+    margin: 10px 10px;
+    width: 580px;
+    border: #8a8a8a 1px solid;
+    border-radius: 10px;
+  }
+  
+  .donate-prev {
+    margin: 10px 10px;
+    width: 780px;
+    border: #8a8a8a 1px solid;
+    border-radius: 10px;
+  }
