@@ -1,6 +1,6 @@
-$(document).ready(function () {
-  $(".privilege-item").on("click", function () {
-    $(".privilege-item").removeClass("active"); // Убираем активность у всех кнопок
-    $(this).addClass("active"); // Добавляем активность на выбранной кнопке
-  });
+$(document).ready(function() {
+    $(".donate-serv").on("click", function() {
+        $(".donate-serv").removeClass("active").addClass("inactive"); // Делаем все кнопки неактивными
+        $(this).removeClass("inactive").addClass("active"); // Делаем кликнутую кнопку активной
+    });
 });
